@@ -4,6 +4,11 @@
 
 ## 日本語
 
+> [!CAUTION]
+> **ファームウェア v1.x.x の本体は、ファームウェアの更新に対応していません。**
+> v1.x.x の本体には USB でファームウェアを更新する機能がないため、この更新ツールでは更新できません。
+> 更新できるのは、ファームウェア v2.0.0 以降の本体です。本体のファームウェアのバージョンは、電源を入れたときの起動画面に出ます。
+
 USB Cable Checker 3 のファームウェアと、ファームウェア更新ツール(Windows 用)の配布場所です。
 
 ### ダウンロード
@@ -16,15 +21,6 @@ zip を展開して `ucc3-updater.exe` を起動します。使い方は、zip �
 更新ツールは起動したときに、ここにある最新のファームウェアを自動でダウンロードします。
 
 これまでの版は [Releases](https://github.com/aroerina/ucc3-firmware/releases) にあります。
-
-### 更新できる本体
-
-> [!IMPORTANT]
-> **ファームウェア v1.x.x の本体は、ファームウェアの更新に対応していません。**
-> v1.x.x の本体には USB でファームウェアを更新する機能がないため、この更新ツールでは更新できません。
-
-更新できるのは、ファームウェア v2.0.0 以降の本体です。
-本体のファームウェアのバージョンは、電源を入れたときの起動画面に出ます。
 
 ### このリポジトリにあるもの
 
@@ -40,6 +36,11 @@ zip を展開して `ucc3-updater.exe` を起動します。使い方は、zip �
 
 ## English
 
+> [!CAUTION]
+> **Devices with firmware v1.x.x do not support firmware updates.**
+> They have no function to update the firmware over USB, so this updater cannot update them.
+> Devices with firmware v2.0.0 or later can be updated. The device shows its firmware version on the startup screen.
+
 Firmware and the firmware updater (for Windows) for USB Cable Checker 3.
 
 ### Download
@@ -52,15 +53,6 @@ Unzip it and start `ucc3-updater.exe`. The `.txt` file in the zip explains how t
 When it starts, the updater downloads the latest firmware from this repository by itself.
 
 Earlier versions are in [Releases](https://github.com/aroerina/ucc3-firmware/releases).
-
-### Supported devices
-
-> [!IMPORTANT]
-> **Devices with firmware v1.x.x do not support firmware updates.**
-> They have no function to update the firmware over USB, so this updater cannot update them.
-
-Devices with firmware v2.0.0 or later can be updated.
-The device shows its firmware version on the startup screen.
 
 ### Files in this repository
 
